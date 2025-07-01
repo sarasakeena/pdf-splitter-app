@@ -37,8 +37,8 @@ def split_custom_ranges(uploaded_file, page_ranges_str):
     return output_pdf
 
 # UI
-st.set_page_config(page_title="PDF Splitter 💥")
-st.title("📄 PDF Splitter App")
+st.set_page_config(page_title="PDF Splitter")
+st.title("PDF Splitter")
 st.write("Upload a PDF and choose how you want to split it:")
 
 uploaded_file = st.file_uploader("📤 Upload your PDF", type="pdf")
